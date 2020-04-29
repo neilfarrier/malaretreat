@@ -2,9 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://kit.fontawesome.com/5a7f8d07c0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet" />
     <title>Mala Retreat</title>
 </head>
 
@@ -13,43 +14,70 @@
     <header id="header-home">
         <div class="container">
             <nav id="mainn-nav">
-                <li><a href="index.html" class="current">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="things.html">Things to do in Hunter Valley</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <ul>
+                    <li><a href="index.html" class="current">Home</a></li>
+                    <li><a href="roomTypes.html">Room Types</a></li>
+                    <img class="logo" src="" alt="">
+                    <li><a href="things.html">Things to do in Hunter Valley</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
             </nav>
             <div class="header-content">
                 <h1>Welcome to Mala Retreat</h1>
-                <h1>Your <span class="txt-type" data-wait="3000"
-                        data-words='["Home Away From Home", "Beautiful Escape", "Personal Retreat"]'></span></h1>
-                <p class="lead">Mala Retreat is can be all of these things, and more.</p>
+                <h1>
+                    Your
+                    <span class="txt-type" data-wait="3000"
+                        data-words='["Home Away From Home", "Beautiful Escape", "Personal Retreat"]'></span>
+                </h1>
+                <p class="lead">
+                    Mala Retreat is can be all of these things, and more.
+                </p>
             </div>
         </div>
     </header>
 
     <!-- Section A: Our specialties -->
-    <section id="home-a">
+    <section id="home-a" class="text-center py-2">
         <h2 id="section-title">Let us show you how.</h2>
         <div class="bottom-line"></div>
         <div id="specialties">
             <div id="specialty 1">
                 <h3>specialty 1</h3>
             </div>
-            <div class="picture-1"></div>
+            <div class="picture-1">
+                <img src="" alt="" />
+            </div>
+            <div class="picture-2">
+                <img src="" alt="" />
+            </div>
             <div id="specialty 2">
                 <h3>specialty 2</h3>
             </div>
-            <div class="picture-2"></div>
             <div id="specialty 3">
                 <h3>specialty 3</h3>
             </div>
-            <div class="picture-3"></div>
+            <div class="picture-3">
+                <img src="" alt="" />
+            </div>
+            <div class="picture-4">
+                <img src="" alt="" />
+            </div>
             <div id="specialty 4">
                 <h3>specialty 4</h3>
             </div>
-            <div class="picture-4"></div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2020. All Rights Reserved</p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -62,7 +90,7 @@
             event.preventDefault();
             const hash = this.hash;
             $("html, body").animate({
-                    scrollTop: $(hash).offset().top
+                    scrollTop: $(hash).offset().top,
                 },
                 800
             );
