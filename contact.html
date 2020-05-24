@@ -18,9 +18,11 @@
             <nav id="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="roomTypes.html">Room Types</a></li>
                     <img class="logo" src="images/mala-logo.jpg" alt="" height="200px">
                     <li><a href="things.html">Things to do</a></li>
+                    <li><a href="testimonials.html">testimonials</a></li>
                     <li><a href="contact.html" class="current">Contact</a></li>
                 </ul>
             </nav>
@@ -101,5 +103,23 @@
         </div>
     </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+    //Smooth Scrolling with Jquery
+    $(".button").on("click", function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            const hash = this.hash;
+            $("html, body").animate({
+                    scrollTop: $(hash).offset().top,
+                },
+                800
+            );
+        }
+    });
+</script>
 
 </html>

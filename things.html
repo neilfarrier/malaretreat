@@ -17,9 +17,11 @@
             <nav id="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="roomTypes.html">Room Types</a></li>
                     <img class="logo" src="images/mala-logo.jpg" alt="" height="200px">
                     <li><a href="things.html" class="current">Things to do</a></li>
+                    <li><a href="testimonials.html">testimonials</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -29,104 +31,111 @@
     <!-- Section A: Gallery -->
     <section id="work-a" class="text-center py-3">
         <div class="container">
-            <h2 class="section-title">Things to do</h2>
+            <h2 class="section-title">Things To Do Near Us</h2>
             <div class="bottom-line"></div>
-            <p class="lead">Have a look at some of the things to do near us</p>
+            <p class="lead">
+                Here is an example of just some of the fun activities you can do near us.
+            </p>
             <div class="items">
                 <div class="item">
                     <div class="item-image">
-                        <img src="" alt="">
+                        <img src="images/Bushwalking.jpg" alt="" />
                     </div>
                     <div class="item-text">
                         <div class="item-text-wrap">
                             <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/nature-outdoors/"
                                 target="blank">
-                                <h2>Bush Walking</h2>
+                                <h2 class="item-text-title">Bush Walking</h2>
+                                <p>Click for more information</p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-image">
-                        <img src="" alt="">
+                        <img src="images/ballooning.jpg" alt="" />
                     </div>
                     <div class="item-text">
                         <div class="item-text-wrap">
                             <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/aviation-ballooning/"
                                 target="blank">
-                                <h2>Ballooning</h2>
+                                <h2 class="item-text-title">Ballooning</h2>
+                                <p>Click for more information</p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-image">
-                        <img src="" alt="">
+                        <img src="images/wine-tasting.jpg" alt="" />
                     </div>
                     <div class="item-text">
                         <div class="item-text-wrap">
-                            <a href="https://huntervalleyvisitorcentre.com.au/wine-tastings/wine-tasting/"
+                            <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/wine-tastings/"
                                 target="blank">
-                                <h2>Wine Tasting</h2>
+                                <h2 class="item-text-title">Wine Tasting</h2>
+                                <p>Click for more information</p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-image">
-                        <img src="" alt="">
+                        <img src="images/brewery.jpg" alt="" />
                     </div>
                     <div class="item-text">
                         <div class="item-text-wrap">
-                            <a href="https://huntervalleyvisitorcentre.com.au/wine-tastings/breweries-distilleries/"
+                            <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/breweries-distilleries/"
                                 target="blank">
-                                <h2>Beer and Liquor</h2>
+                                <h2 class="item-text-title">Breweries And Distilleries</h2>
+                                <p>Click for more information</p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-image">
-                        <img src="" alt="">
+                        <img src="images/Relaxation.jpg" alt="" />
                     </div>
                     <div class="item-text">
                         <div class="item-text-wrap">
-                            <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/health-wellbeing//"
+                            <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/health-wellbeing/"
                                 target="blank">
-                                <h2>Relaxation</h2>
+                                <h2 class="item-text-title">Relaxation</h2>
+                                <p>Click for more information</p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-image">
-                        <img src="" alt="">
+                        <img src="images/family.jpg" alt="" />
                     </div>
                     <div class="item-text">
                         <div class="item-text-wrap">
                             <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/family-activities/"
                                 target="blank">
-                                <h2>Things for the family</h2>
+                                <h2 class="item-text-title">Things for the Family</h2>
+                                <p>Click for more information</p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item-image">
-                        <img src="" alt="">
+                        <img src="images/arts-culture.jpg" alt="" />
                     </div>
                     <div class="item-text">
                         <div class="item-text-wrap">
                             <a href="https://huntervalleyvisitorcentre.com.au/things-to-do/arts-and-culture/"
                                 target="blank">
-                                <h2>Arts and Culture</h2>
+                                <h2 class="item-text-title">Arts and Culture</h2>
+                                <p>Click for more information</p>
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 class="text-center py-2">This is just the start of what there is to explore in this fantastic region
-            </h2>
         </div>
     </section>
 
@@ -141,5 +150,23 @@
         </div>
     </footer>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+    //Smooth Scrolling with Jquery
+    $(".button").on("click", function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            const hash = this.hash;
+            $("html, body").animate({
+                    scrollTop: $(hash).offset().top,
+                },
+                800
+            );
+        }
+    });
+</script>
 
 </html>

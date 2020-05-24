@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/5a7f8d07c0.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/main.css" />
+    <title>Mala Retreat</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header id="header-home">
+        <div class="container">
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="roomTypes.html">Room Types</a></li>
+                    <img class="logo" src="images/mala-logo.jpg" alt="" height="200px" />
+                    <li><a href="things.html">Things to do</a></li>
+                    <li><a href="testimonials.html" class="current">testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- Section: Testimonials -->
+
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2020. All Rights Reserved</p>
+            <div class="social">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="JS/typewriter.js"></script>
+
+<script>
+    //Smooth Scrolling with Jquery
+    $(".button").on("click", function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            const hash = this.hash;
+            $("html, body").animate({
+                    scrollTop: $(hash).offset().top,
+                },
+                800
+            );
+        }
+    });
+</script>
+
+</html>
