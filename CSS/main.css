@@ -173,21 +173,28 @@ ul {
 /* Section: Specialties */
 #specialties {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	grid-gap: 1rem;
 	padding: 1rem;
 	position: relative;
 }
 
-.specialty-pics {
-	display: flex;
-	justify-content: center;
+#specialty-1 {
+	width: 100%;
 }
 
-.specialty {
-	justify-content: center;
+#specialty-2 {
+	width: 100%;
 }
 
-#specialty {
+#specialty-3 {
+	width: 100%;
+}
+
+#specialty-4 {
+	width: 100%;
+}
+
+.specialty-info {
+	justify-content: center;
 	border-right: 2px solid #000;
 	border-left: 2px solid #000;
 	border-top: 2px solid #000;
@@ -195,8 +202,23 @@ ul {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.specialty-pics {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 .picture-1 {
+	width: 450px;
+	height: 450px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.picture-1 img {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 100%;
+	max-width: 100%;
 }
 
 .picture-1b {
@@ -252,17 +274,20 @@ ul {
 }
 
 .bio-1 .inner-div {
-	display: grid;
+	display: flex;
 	justify-content: center;
+	text-align: center;
+	width: auto;
 }
 
 .bio-1 p {
 	width: 500px;
 }
 
-.bio-1 img {
-	width: 500px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.bio-1 .room-pics {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 .bio-2 {
@@ -271,17 +296,38 @@ ul {
 }
 
 .bio-2 .inner-div {
-	display: grid;
+	display: flex;
 	justify-content: center;
+	text-align: center;
+	width: auto;
 }
 
 .bio-2 p {
 	width: 500px;
 }
 
-.bio-2 img {
-	width: 500px;
+.bio-2 .room-pics {
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.room-pics-inner {
+	width: 450px;
+	height: 450px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.room-pics-inner img {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 100%;
+	max-width: 100%;
+}
+
+.room-type1-image {
+	height: 100%;
+	max-width: 100%;
 }
 
 /* Section: Things to do */
