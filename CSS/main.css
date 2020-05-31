@@ -205,7 +205,6 @@ ul {
 .picture-1 {
 	width: 450px;
 	height: 450px;
-	padding-left: 10px;
 	padding-right: 10px;
 }
 
@@ -216,11 +215,17 @@ ul {
 }
 
 .picture-1b {
+	width: 550px;
+	height: 450px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
-.picture-1c {
+.picture-1b img {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 100%;
+	max-width: 100%;
 }
 
 /* About Us */
@@ -551,7 +556,7 @@ ul {
 	background: #ffbc00;
 }
 
-@media(max-width:800px) {
+@media (max-width: 800px) {
 	#main-nav img {
 		display: none;
 	}
@@ -577,7 +582,7 @@ ul {
 	}
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
 	#main-nav {
 		flex-direction: column;
 		align-items: center;
