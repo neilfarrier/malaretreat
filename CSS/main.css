@@ -172,7 +172,6 @@ ul {
 
 /* Section: Specialties */
 #specialties {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	padding: 1rem;
 	position: relative;
 }
@@ -195,11 +194,6 @@ ul {
 
 .specialty-info {
 	justify-content: center;
-	border-right: 2px solid #000;
-	border-left: 2px solid #000;
-	border-top: 2px solid #000;
-	border-bottom: 2px solid #000;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .specialty-pics {
@@ -555,4 +549,90 @@ ul {
 
 #main-footer .footer-content .social .fab:hover {
 	background: #ffbc00;
+}
+
+@media(max-width:800px) {
+	#main-nav img {
+		display: none;
+	}
+
+	.specialty-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#about-a .about-info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bio-1 .room-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.bio-2 .room-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media(max-width: 500px) {
+	#main-nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#main-nav ul {
+		flex-direction: column;
+	}
+
+	#main-nav li {
+		padding: 1rem;
+	}
+
+	#main-nav img {
+		display: none;
+	}
+
+	.specialty-pics {
+		flex-direction: column;
+	}
+
+	.about-container {
+		flex-direction: column;
+		max-width: 450px;
+	}
+
+	.about-container img {
+		width: 400px;
+		height: auto;
+	}
+
+	.about-container p {
+		width: 400px;
+	}
+
+	#about-a .about-info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bio-1 .room-pics {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.bio-2 .room-pics {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.items {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.location-div img {
+		max-width: 400px;
+	}
 }
