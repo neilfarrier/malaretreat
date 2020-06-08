@@ -1,2 +1,3 @@
 # malaretreat
-Working progress for the Mala Retreat website
+Site is finished and live.
+Website made by myself for a real company. Hosted on Netlify.com
