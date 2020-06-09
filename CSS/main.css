@@ -556,6 +556,37 @@ ul {
 	background: #ffbc00;
 }
 
+/* Surface Pro in landscape */
+@media (max-width: 1920px) {}
+
+/* Surface pro in portrait */
+@media(max-width: 1080px) {
+	#main-nav img {
+		display: none;
+	}
+
+	.specialty-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#about-a .about-info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bio-1 .room-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.bio-2 .room-pics {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+/* Tablet */
 @media (max-width: 800px) {
 	#main-nav img {
 		display: none;
@@ -582,6 +613,7 @@ ul {
 	}
 }
 
+/* Mobile */
 @media (max-width: 500px) {
 	#main-nav {
 		flex-direction: column;
