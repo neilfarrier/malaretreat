@@ -203,7 +203,7 @@ ul {
 }
 
 .picture-1 {
-	width: 450px;
+	width: auto;
 	height: 450px;
 	padding-right: 10px;
 }
@@ -215,7 +215,7 @@ ul {
 }
 
 .picture-1b {
-	width: 550px;
+	width: auto;
 	height: 450px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-left: 10px;
