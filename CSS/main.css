@@ -171,6 +171,16 @@ ul {
 }
 
 /* Section: Specialties */
+#video-content {
+	background: white;
+	align-self: center;
+}
+
+#video-content iframe {
+	padding-left: 1rem;
+	align-self: auto;
+}
+
 #specialties {
 	padding: 1rem;
 	position: relative;
